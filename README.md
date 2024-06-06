@@ -28,6 +28,6 @@ Ensure you have the AWS SDK for Python (Boto3) installed.
 
 ### Example CSV Output
 | Region	| Profile	| Type	| ID	| Name	| PublicIP	| SecurityGroup	| OpenPorts	| Connectivity |
-| -------- | ------- |
+| ------------- | ------------- | ------------- |------------- | ------------- | ------------- |------------- | ------------- | ------------- |
 | us-east-1 | profile1 | EC2 | i-0a12345678901234 | Node-1 | 1.2.3.4 | sg-0123456789012345 | 22-22(tcp) | 22-22(tcp): 22: Failure |
 | us-west-1 | profile2 | EC2 | i-0a12345678901235 | Node-2 | 1.2.3.5 | sg-0123456789012346 | 22-22(tcp) | 22-22(tcp): 22: Success |
